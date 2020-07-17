@@ -8,7 +8,7 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
-    defaultDarkMode: true,
+    defaultDarkMode: false,
     navbar: {
       title: "banqdrop",
       logo: {
@@ -25,7 +25,7 @@ module.exports = {
       ]
     },
     footer: {
-      style: "dark",
+      style: "light",
       title: "legal",
       links: [
         {
@@ -61,7 +61,7 @@ module.exports = {
           homePageId: "termsOfService",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/agliber/agliber.github.io"
+          editUrl: "https://github.com/agliber/agliber.github.io/tree/docusaurus"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
