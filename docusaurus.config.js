@@ -1,74 +1,72 @@
 module.exports = {
-  title: 'banqdrop',
-  tagline: 'Making Managing Money as Easy as Managing Digital Files',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  favicon: 'banqdropFavicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "banqdrop",
+  tagline: "Making managing money as easy as managing digital files",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  favicon: "banqdropFavicon.ico",
+  organizationName: "banqdrop", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
+    defaultDarkMode: true,
     navbar: {
-      title: 'banqdrop',
+      title: "banqdrop",
       logo: {
-        alt: 'Banqdrop logo',
-        src: 'logo.png',
+        alt: "Banqdrop logo",
+        src: "logo.png"
       },
       links: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Terms of Use',
-          position: 'left',
-        },
-        ],
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "Legal",
+          position: "left"
+        }
+      ]
     },
     footer: {
-      style: 'dark',
+      style: "dark",
+      title: "legal",
       links: [
         {
           items: [
             {
-              label: 'Terms of Service',
-              to: 'docs/termsOfService',
+              label: "Terms of Service",
+              to: "docs/termsOfService"
             },
             {
-              label: 'Privacy Policy',
-              to: 'docs/privacyPolicy',
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: 'Acceptable Use Policy',
-              to: 'docs/acceptableUsePolicy',
+              label: "Privacy Policy",
+              to: "docs/privacyPolicy"
             },
             {
-              label: 'Consent to Receive Electronic Disclosures',
-              href: 'docs/consentToReceiveElectronicDisclosures',
+              label: "Acceptable Use Policy",
+              to: "docs/acceptableUsePolicy"
             },
-          ],
-        },
+            {
+              label: "Consent to Receive Electronic Disclosures",
+              href: "docs/consentToReceiveElectronicDisclosures"
+            }
+          ]
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Banqdrop, LLC.`,
-    },
+      copyright: `Copyright © ${new Date().getFullYear()} Banqdrop, LLC.`
+    }
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'termsOfService',
-          sidebarPath: require.resolve('./sidebars.js'),
+          homePageId: "termsOfService",
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/agliber/agliber.github.io',
+          editUrl: "https://github.com/agliber/agliber.github.io"
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+          customCss: require.resolve("./src/css/custom.css")
+        }
+      }
+    ]
+  ]
 };
