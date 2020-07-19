@@ -1,11 +1,11 @@
 module.exports = {
   title: "banqdrop",
   tagline: "Making managing money as easy as managing digital files",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://banqdrop.com",
   baseUrl: "/",
   favicon: "banqdropFavicon.ico",
-  organizationName: "banqdrop", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "agliber", // Usually your GitHub org/user name.
+  projectName: "agliber.github.io", // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
     defaultDarkMode: false,
