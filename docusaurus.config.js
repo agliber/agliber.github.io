@@ -21,6 +21,11 @@ module.exports = {
           activeBasePath: "docs",
           label: "Legal",
           position: "left"
+        },
+        {
+          label: "Customer Support",
+          to: "support",
+          position: "left"
         }
       ]
     },
@@ -32,7 +37,7 @@ module.exports = {
           items: [
             {
               label: "Terms of Service",
-              to: "docs/termsOfService"
+              to: "docs/"
             },
             {
               label: "Privacy Policy",
@@ -47,8 +52,17 @@ module.exports = {
               href: "docs/consentToReceiveElectronicDisclosures"
             }
           ]
+        },
+        {
+          items: [
+            {
+              label: "Customer Support",
+              to: "support"
+            }
+          ]
         }
       ],
+
       copyright: `Copyright © ${new Date().getFullYear()} Banqdrop, LLC.`
     }
   },
@@ -61,7 +75,8 @@ module.exports = {
           homePageId: "termsOfService",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/agliber/agliber.github.io/tree/docusaurus"
+          editUrl:
+            "https://github.com/agliber/agliber.github.io/tree/docusaurus"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
