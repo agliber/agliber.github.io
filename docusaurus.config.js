@@ -13,7 +13,7 @@ module.exports = {
       title: "banqdrop",
       logo: {
         alt: "Banqdrop logo",
-        src: "logo.png"
+        src: "img/logo_square.svg"
       },
       links: [
         {
