@@ -17,8 +17,8 @@ module.exports = {
       },
       links: [
         {
-          to: "docs/",
-          activeBasePath: "docs",
+          to: "docs/termsOfService",
+          activeBasePath: "docs/termsOfService",
           label: "Legal",
           position: "left"
         },
@@ -37,7 +37,7 @@ module.exports = {
           items: [
             {
               label: "Terms of Service",
-              to: "docs/"
+              to: "docs/termsOfService"
             },
             {
               label: "Privacy Policy",
@@ -72,7 +72,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: "termsOfService",
+          homePageId: "docs/termsOfService",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
