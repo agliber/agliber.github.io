@@ -1,10 +1,11 @@
 module.exports = {
-  someSidebar: {
+  docs: {
     Legal: [
       "termsOfService",
       "privacyPolicy",
       "acceptableUsePolicy",
       "consentToReceiveElectronicDisclosures"
     ]
-  }
+  },
+  support: ["faq"]
 };

@@ -17,10 +17,17 @@ function Support() {
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
           <div className="container">
             <h1>Customer Support</h1>
-
+            <a
+              href="docs/faq"
+              className={clsx("button button--outline button--lg")}
+            >
+              Answers to frequently asked questions
+            </a>
+            <br />
+            <br />
             <a
               href="mailto:support@banqdrop.com"
-              className={clsx("button button--outline button--dark button--lg")}
+              className={clsx("button button--md")}
             >
               Email support@banqdrop.com
             </a>

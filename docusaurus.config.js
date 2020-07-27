@@ -58,6 +58,10 @@ module.exports = {
             {
               label: "Customer Support",
               to: "support"
+            },
+            {
+              label: "FAQ",
+              to: "docs/faq"
             }
           ]
         }
