@@ -37,7 +37,7 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className={clsx("button button--outline button--dark button--lg")}
+              className={clsx("button button--secondary button--lg")}
               to={useBaseUrl("docs/termsOfService")}
             >
               Legal Documents

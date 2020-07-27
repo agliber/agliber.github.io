@@ -19,7 +19,7 @@ function Support() {
             <h1>Customer Support</h1>
             <a
               href="docs/faq"
-              className={clsx("button button--outline button--lg")}
+              className={clsx("button button--secondary button--lg")}
             >
               Answers to frequently asked questions
             </a>
@@ -27,7 +27,7 @@ function Support() {
             <br />
             <a
               href="mailto:support@banqdrop.com"
-              className={clsx("button button--md")}
+              className={clsx("button button--secondary")}
             >
               Email support@banqdrop.com
             </a>
