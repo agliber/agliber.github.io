@@ -1,49 +1,38 @@
 # adamliber.github.io
-**Landing page for Banqdrop users specifying terms of use**
 
+The official [Banqdrop website](https://banqdrop.com) built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static site generator.
 
-## Website
+**All development should be done in `docusaurus` branch**
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+#### Installation
 
-### Installation
-
-```
-yarn
-```
-or
-```
-npm
-```
-
-### Local Development
+Clone this repository to your local computer then run:
 
 ```
-yarn start
+npm install
 ```
-or 
+
+#### Local Development
+
 ```
 npm start
 ```
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+#### Deployment
 
 ```
-yarn build
-```
-or
-```
-npm build
+GIT_USER=<Your GitHub username> npm run deploy
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+On Github, the website will be deployed to `master` branch because this is a repository ending in `github.io`.
 
-### Deployment
+##### After successful deployment you must ensure the custom domain is saved properly.
 
-```
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+1. Go to the Github repository's 'Settings' tab
+2. Scroll to 'GitHub Pages' section
+3. Enter `banqdrop.com` into 'Custom domain' subsection field
+4. Press 'Save'
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+For more deployment info see https://v2.docusaurus.io/docs/deployment
