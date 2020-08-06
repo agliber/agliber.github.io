@@ -12,9 +12,9 @@ No.
 
 ## Bank Linking
 
-### Is there a way to set up alerts so I know immediately if money I approved goes over the amount in the account or will it not even let me transfer it (aka can I do an overdraft or is there a stop in place to prevent it)?
+### Is there a way to prevent a transfer from overdrafting my linked bank account?
 
-Not yet.
+Not yet. For now, we recommend making sure you have enough funds in the bank account before creating a transfer.
 
 ### If I have a joint account (like a husband-wife scenario) can both people link that account to their banqdrop account separately?
 
