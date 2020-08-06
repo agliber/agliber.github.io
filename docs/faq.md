@@ -16,13 +16,17 @@ No.
 
 Not yet. For now, we recommend making sure you have enough funds in the bank account before creating a transfer.
 
-### If I have a joint account (like a husband-wife scenario) can both people link that account to their banqdrop account separately?
+### Can two people both link the same bank account?
 
 No. A bank account can only be linked once.
 
-### If I link a bank account are other accounts with that bank visible to Banqdrop?
+For example, if couple shares a joint bank account only one person can link that account to Banqdrop.
 
-No. For example, suppose you have a checking and a savings account with Wells Fargo. If you link a bank account with Banqdrop by signing in with Wells Fargo and selecting your checking account, Banqdrop does not see your savings account information.
+### Are other non-linked accounts under the same bank visible to Banqdrop?
+
+No. Only the selected bank account will be visible to Banqdrop.
+
+For example, suppose you have a checking and a savings account with Wells Fargo. If you link a bank account with Banqdrop by signing in with Wells Fargo and selecting your checking account, Banqdrop does not see your savings account information.
 
 ## Data Sharing / Privacy
 
@@ -47,6 +51,6 @@ No. See our [Privacy Policy](privacyPolicy)
 
 No. We don't track your location ever.
 
-### Does Banqdrop see transactions made on my linked bank accounts?
+### Does Banqdrop see transactions made on linked bank accounts?
 
 No.
