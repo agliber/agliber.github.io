@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Making managing money as easy as managing digital files",
   url: "https://banqdrop.com",
   baseUrl: "/",
-  favicon: "banqdropFavicon.ico",
+  favicon: "img/banqdropFavicon.ico",
   organizationName: "agliber", // Usually your GitHub org/user name.
   projectName: "agliber.github.io", // Usually your repo name.
   themeConfig: {
