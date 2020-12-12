@@ -1,6 +1,6 @@
 module.exports = {
   title: "banqdrop",
-  tagline: "Making managing money as easy as managing digital files",
+  tagline: "Like Dropbox for money",
   url: "https://banqdrop.com",
   baseUrl: "/",
   favicon: "img/banqdropFavicon.ico",
