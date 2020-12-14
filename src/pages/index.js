@@ -73,7 +73,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <Container fluid>
+        <Container fluid style={{ maxWidth: 1800 }}>
           <Row>
             {cards.map((card, index) => {
               return (
@@ -92,6 +92,30 @@ function Home() {
                 </Col>
               );
             })}
+          </Row>
+          <Row className="justify-content-xl-center" style={{ marginTop: 100 }}>
+            <Col xl="6">
+              <h1 style={{ textAlign: "center" }}>Banqdrop Explained</h1>
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/z5TGYySKY10?rel=0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-xl-center" style={{ marginTop: 100 }}>
+            <Col xl="10">
+              <h1 style={{ textAlign: "center" }}>Product Demo</h1>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube-nocookie.com/embed/AKJyRWLq8N0?rel=0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </Col>
           </Row>
         </Container>
       </main>
