@@ -4,6 +4,8 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Button } from "react-bootstrap";
 
 function Support() {
   const context = useDocusaurusContext();
@@ -15,23 +17,20 @@ function Support() {
     >
       <main>
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
-          <div className="container">
+          <Container>
             <h1>Customer Support</h1>
-            <a
-              href="docs/faq"
-              className={clsx("button button--secondary button--lg")}
-            >
+            <Button style={{ marginTop: 40 }} variant="light" href="docs/faq">
               Answers to frequently asked questions
-            </a>
+            </Button>
             <br />
-            <br />
-            <a
+            <Button
+              style={{ marginTop: 20 }}
+              variant="light"
               href="mailto:support@banqdrop.com"
-              className={clsx("button button--secondary")}
             >
               Email support@banqdrop.com
-            </a>
-          </div>
+            </Button>
+          </Container>
         </header>
       </main>
     </Layout>
