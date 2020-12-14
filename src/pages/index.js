@@ -73,14 +73,14 @@ function Home() {
         </div>
       </header>
       <main>
-        <Container fluid style={{ maxWidth: 1800 }}>
+        <Container fluid style={{ maxWidth: 1200 }}>
           <Row>
             {cards.map((card, index) => {
               return (
-                <Col style={{ marginTop: 20 }} xl="4">
+                <Col style={{ marginTop: 20 }} lg="4">
                   <Card>
                     <Card.Body>
-                      <Card.Title as="h1" style={{ textAlign: "center" }}>
+                      <Card.Title as="h2" style={{ textAlign: "center" }}>
                         {card.title}
                       </Card.Title>
                       <Card.Text style={{ textAlign: "center" }}>
