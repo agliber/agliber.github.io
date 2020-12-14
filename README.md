@@ -36,3 +36,21 @@ On Github, the website will be deployed to `master` branch because this is a rep
 4. Press 'Save'
 
 For more deployment info see https://v2.docusaurus.io/docs/deployment
+
+#### Troubleshooting
+
+##### Failed deployment
+
+Errors:
+
+```
+remote: Repository not found.
+fatal: repository 'https://github.com/banqdrop/banqdrop.git/' not found
+Error: Error: git clone failed
+
+remote: This repository was archived so it is read-only.
+fatal: unable to access 'https://github.com/agliber/banqdrop.git/': The requested URL returned error: 403
+```
+
+This could be caused by a problem with Check `PROJECT_NAME` environment variable
+Try `$ printenv` to view bash environment variables and remove `PROJECT_NAME` by `$ unset PROJECT_NAME`
