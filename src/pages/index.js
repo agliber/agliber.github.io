@@ -23,14 +23,14 @@ const cards = [
   {
     src:
       "https://res.cloudinary.com/dli8yhgfa/image/upload/v1607732789/mockBucketScreen_xqytpn.png",
-    title: "Collect and Spend",
-    description: "Track money in and out"
+    title: "Collect & Spend",
+    description: "Track money in & out"
   },
   {
     src:
       "https://res.cloudinary.com/dli8yhgfa/image/upload/v1607732789/mockBucketInfoScreen_ee5d3z.png",
     title: "Share Securely",
-    description: "Control what people can see and do"
+    description: "Control what people can see & do"
   }
 ];
 
