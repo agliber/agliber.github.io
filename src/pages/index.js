@@ -6,7 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Media } from "react-bootstrap";
 
 const cards = [
   // {
@@ -117,6 +117,46 @@ function Home() {
                   src="https://www.youtube-nocookie.com/embed/AKJyRWLq8N0?rel=0"
                   allowfullscreen
                 ></iframe>
+              </div>
+            </Col>
+          </Row>
+
+          <Row
+            className="justify-content-lg-center"
+            style={{ marginTop: 100, marginBottom: 100 }}
+          >
+            <Col lg={4} xl={4}>
+              <h1 style={{ marginBottom: 50, textAlign: "center" }}>
+                Link your bank
+              </h1>
+            </Col>
+            <Col lg={6} xl={4}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
+                }}
+              >
+                <img
+                  style={{
+                    position: "absolute",
+                    zIndex: 1,
+                    top: "50%",
+                    left: "50%",
+                    transform: "translate(-50%, -50%)"
+                  }}
+                  height={785}
+                  src="https://res.cloudinary.com/dli8yhgfa/image/upload/v1608084854/Apple_iPhone_11_Black_copy_udribb.png"
+                />
+                <img
+                  style={{
+                    position: "relative",
+                    margin: "auto"
+                  }}
+                  height={710}
+                  src="https://res.cloudinary.com/dli8yhgfa/image/upload/v1608084773/ezgif.com-gif-maker_copy_3_uo2hqh.gif"
+                />
               </div>
             </Col>
           </Row>
