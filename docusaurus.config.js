@@ -17,14 +17,13 @@ module.exports = {
       },
       links: [
         {
-          to: "docs/termsOfService",
-          activeBasePath: "docs/termsOfService",
-          label: "Legal",
+          label: "How It Works",
+          to: "howItWorks",
           position: "left"
         },
         {
-          label: "Customer Support",
-          to: "support",
+          label: "FAQ",
+          to: "docs/faq",
           position: "left"
         }
       ]
