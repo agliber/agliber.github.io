@@ -37,6 +37,11 @@ On Github, the website will be deployed to `master` branch because this is a rep
 
 For more deployment info see https://v2.docusaurus.io/docs/deployment
 
+#### References
+
+- Cloudinary https://cloudinary.com/ for storing images
+- react-bootstrap https://react-bootstrap.github.io/ user interface framework
+
 #### Troubleshooting
 
 ##### Failed deployment
