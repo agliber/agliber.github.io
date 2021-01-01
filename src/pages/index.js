@@ -109,12 +109,12 @@ function Home() {
             </Col>
           </Row>
           <Row className="justify-content-xl-center" style={{ marginTop: 100 }}>
-            <Col xl="10">
+            <Col xl="6">
               <h1 style={{ textAlign: "center" }}>Product Demo</h1>
-              <div class="embed-responsive embed-responsive-16by9">
+              <div class="embed-responsive embed-responsive-1by1">
                 <iframe
                   class="embed-responsive-item"
-                  src="https://www.youtube-nocookie.com/embed/AKJyRWLq8N0?rel=0"
+                  src="https://www.youtube.com/embed/Ykilo4DcQfI/embed/AKJyRWLq8N0?rel=0"
                   allowfullscreen
                 ></iframe>
               </div>
