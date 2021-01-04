@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [{
+      "appID": "banqdrop.com.banqdrop.testflight",
+      "paths": [
+        "/bucket/*",
+        "/email-verified"
+      ]
+    }]
+  }
+}
