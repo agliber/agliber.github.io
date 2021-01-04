@@ -5,7 +5,7 @@
       "appID": "banqdrop.com.banqdrop.testflight",
       "paths": [
         "/bucket/*",
-        "/email-verified"
+        "/email-verification"
       ]
     }]
   }
