@@ -64,11 +64,11 @@ function Home() {
           <div className={[styles.buttons]}>
             <Row>
               <Col style={{ marginTop: 20 }}>
-                <a
-                  href="mailto:support@banqdrop.com"
-                  className={clsx("button button--secondary")}
-                >
-                  Join the Beta
+                <a href="https://apps.apple.com/app/id1500150170">
+                  <img
+                    src={useBaseUrl("img/App_Store_Download_Badge_white.svg")}
+                    style={{ minHeight: 80 }}
+                  />
                 </a>
               </Col>
             </Row>
