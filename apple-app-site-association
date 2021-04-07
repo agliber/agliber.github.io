@@ -3,7 +3,7 @@
     "apps": [],
     "details": [{
       "appID": "PKPJDSR2K5.com.banqdrop.testflight",
-      "paths": ["*"]
+      "paths": ["/email-verfication/*"]
     }]
   }
 }
